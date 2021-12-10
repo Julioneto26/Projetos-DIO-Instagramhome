@@ -16,14 +16,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-section {
-    /*border: 2px solid green;*/
+/*section {
+    border: 2px solid green;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 60%;
     height: 100vh;
-}
+}*/
 div {
     border: 1px solid red;
 }
@@ -48,6 +48,12 @@ div {
     width: 50%;
     min-height: 42rem;
     margin-top: 2rem;
+    border: 2px solid green;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;*/
+    height: 100vh;
 }
 .box1    {
     display: flex;
@@ -63,6 +69,7 @@ div {
     margin-left: -2.4rem;
 }
 .nomeinsta {
+    display: flex;
     padding-top: 2rem;
 }
 .nomeinsta img{
@@ -88,6 +95,7 @@ div {
     font-size: smaller;
     padding-left: 5px;
     color: rgb(142,142,142);
+    size: 20rem
 }
 #botao {
     height: 2.2rem;
@@ -176,4 +184,48 @@ div {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+}
+
+/*  Media queries  6r*/
+
+/*@media (max-width: 1024px) {
+    section {
+        width: 90%;
+        }
+}
+@media (max-width: 750px) {
+    body :first-child {
+        display: none;
+    }
+    .imagem {
+        display: none;
+    }
+    .group {
+        width: 100%;
+    }
+    /*.group {
+        width: 100%;
+    }
+    .box1 .box2 .box-fim {
+
+        width: 100%;
+    }
+
+}*/
+@media (max-width: 650px) {
+
+    .frame1 {
+        display: none;
+        }
+    section {
+        width: 100%;
+        margin: 0;
+        }
+    .group {
+        min-width: 100%;
+        margin: 0%;
+        padding: 0%;
+        min-height: 100%;
+        
+    }
 }
